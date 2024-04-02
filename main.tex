@@ -2,16 +2,38 @@
 \usepackage{nott-titlepage}
 \usepackage{graphicx}
 
-\title{Nottingham Report Template}
-\author{ecyht2}
-\date{April 20 1969}
-\studentid{42069420}
-\module{EEEE6969 LaTeX \textgreater Word}
-\department{Department of XXX}
+\title{Power Electronics Coursework Report}
+\author{Tan Hong Kai}
+\date{April, 4 2024}
+\studentid{20386501}
+\module{EEEE3112 Power Electronic Applications and Control}
+\department{Department of Electrical and Electronics Engineering}
 
 \begin{document}
 \maketitle
 
 \section{Introduction}
+
+This coursework explores designing a DC/DC converter for the application of CPU.
+Designing a good power electronics converter for a CPU becomes important as new generation CPU requires more stringent power input.
+In this coursework a DC/DC converter for a CPU with requirements shown in table \ref{tab:cpu-requirement} is designed.
+
+\begin{table}
+    \label{tab:cpu-requirement}
+    \caption[Design Requirements]{Design Requirements for CPU}
+    \centering
+    \begin{tabular}{| l | l | l |}
+        Specification/Term & Symbol & Value\\
+        DC Supply Voltage & $V_{DC}$ & 5 V\\
+        Output Voltage & $\bar{V}_{BN}$/$V_{o}$ & 1.8 V\\
+        Output Current & $I_{o}$ & 18 A\\
+        Switching frequency & $f_s$ & 200 kHz\\
+Output voltage ripple & $\Delta{}V_o$ & 1 mV\\
+Internal resistance of the filter inductor & $R_L$ & 5 m$\Omega$\\
+ESR of the filter capacitor & ESR & 0.05 $\Omega$
+    \end{tabular}
+\end{table}
+
+\section{Components Calculation}
 
 \end{document}
