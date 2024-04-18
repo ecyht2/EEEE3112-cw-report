@@ -1,6 +1,6 @@
-# Nottingham-Report-Template
+# EEEE3112-cw-report
 
-Template for Coursework Reports for University of Nottingham Malaysia
+Report for EEEE3112 Power Electronic Applications and Control Power Electronics Coursework.
 
 ## Requirements
 
@@ -9,6 +9,10 @@ Engine: pdfLaTeX
 ### Packages
 
 - graphicx
+- pdfpages
+- float
+- hyperref
+- tabularx
 
 ## Usage
 
